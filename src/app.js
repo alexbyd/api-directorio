@@ -4,7 +4,8 @@ const port = 5002
 const routes = require('../routes/routes')
 
 
-app.use('/', routes)
+app.use('/api', routes)
+
 
 
 app.listen(port, ()=>{console.log('server')})
