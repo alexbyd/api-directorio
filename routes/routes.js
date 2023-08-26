@@ -1,8 +1,7 @@
 const express = require('express')
 const routes = express.Router()
+const controller = require('../controller/controllers')
 
-routes.get('/', (req, res)=>{
-  res.send('respuesta desde el enrutador')
-})
+routes.get('/', controller.saludar)
 
 module.exports = routes
