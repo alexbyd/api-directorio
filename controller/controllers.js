@@ -13,10 +13,13 @@ controller.dbJson = (req, res)=>{
 }
 
 controller.queryToMySQL = (req, res)=>{
+  /**
+   * [queryToMySQL]
+  * @param {String} req Es la forma de hacer una req
+  * esto es un docstring y cuando te posas sobre la variable te explica su contexto
+  *  */
 
-
-  connection.query('show databases;')
-  res.send(results)
+  req.path();
   connection.end()
 }
 
