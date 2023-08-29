@@ -1,5 +1,8 @@
 const controller = require('../controller/controllers')
 
-test('consulta base de datos sql', ()=>{
-
+describe('controller module', ()=>{
+  test('comprobar queri sql', ()=>{
+    expect().toBe()
+  })
 })
+

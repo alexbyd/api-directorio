@@ -22,6 +22,7 @@ controller.queryToMySQL = (req, res)=>{
   connection.query(sql, (err, result)=>{
     if(err){throw err}
     res.json(result)
+    // https://www.educative.io/answers/how-to-convert-json-to-sql-in-mysql enviar todo el json a mysql
   })
 }
 
