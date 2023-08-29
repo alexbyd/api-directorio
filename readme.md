@@ -1,9 +1,9 @@
 # Get Started
-esta api es de solo GET, puedes clonar [este](https://github.com/alexbyd/api-directorio) repositorio y trabajar con ella en tu entorno localhost
+esta api es de solo GET, puedes clonar [este](https://github.com/alexbyd/api-directorio) repositorio y trabajar con el en tu entorno localhost
 
 ## REST
 
-**Url Base:**
+**Url Base:** `http://localhost:{port}/api`
 
 Puntos finales
 
