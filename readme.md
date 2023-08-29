@@ -1,5 +1,5 @@
 # Get Started
-esta api es de solo GET, puedes clonar [este](https://github.com/alexbyd/api-directorio) repositorio y trabajar con el en tu entorno localhost
+esta api es de solo GET, puedes clonar [este](https://github.com/alexbyd/api-directorio) repositorio y trabajar con el en tu entorno localhost con `npm init`
 
 ## REST
 
@@ -17,11 +17,11 @@ Puntos finales
 
 ### Squemas
 
-| KEY   | TYPE   |
-|-------|--------|
-| Row 1 | Cell 2 | 
-| Row 2 | Cell 5 | 
-| Row 3 | Cell 8 | 
+| KEY      | TYPE    |
+|----------|---------|
+| zip      | Integer | 
+| name     | String  | 
+| birthday | Date    | 
     
 
 

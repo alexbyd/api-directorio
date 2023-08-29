@@ -18,9 +18,11 @@ controller.queryToMySQL = (req, res)=>{
   * @param {String} req Es la forma de hacer una req
   * esto es un docstring y cuando te posas sobre la variable te explica su contexto
   *  */
-
-  req.path();
-  connection.end()
+  var sql = 'SELECT * FROM directorio'
+  connection.query(sql, (err, result)=>{
+    if(err){throw err}
+    res.json(result)
+  })
 }
 
 module.exports = controller
