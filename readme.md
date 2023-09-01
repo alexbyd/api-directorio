@@ -1,15 +1,37 @@
-# 🚀 Welcome to your new awesome project!
+# Get Started
+esta api es de solo GET, puedes clonar [este](https://github.com/alexbyd/api-directorio) repositorio y trabajar con el en tu entorno localhost con `npm init`
 
-This project has been created using **webpack-cli**, you can now run
+## REST
 
-```
-npm run build
-```
+**Url Base:** `http://localhost:{port}/api`
 
-or
+Puntos finales
 
-```
-yarn build
-```
+````javascript
+  {
+    'http://localhost:{port}/api', 
+    'http://localhost:{port}/api/db',
+    'http://localhost:{port}/api/mysql'
+  }
+````
 
-to bundle your application
+### Squemas
+
+| KEY      | TYPE    |
+|----------|---------|
+| zip      | Integer | 
+| name     | String  | 
+| birthday | Date    | 
+    
+
+
+
+tenemos un json que usaremos como base de datos
+## Temario
+
+* Estructuras de datos
+* node
+* API
+* express
+* MySQL
+* Test

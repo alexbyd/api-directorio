@@ -4,7 +4,7 @@ const connection = require('./connection')
 const e = require("express");
 
 controller.saludar = (req, res)=>{
-  res.send('hola desde controller')
+  res.send('me dicen la flaca y y estoy gorda')
 }
 
 controller.dbJson = (req, res)=>{
